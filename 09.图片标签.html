@@ -1,0 +1,42 @@
+<!-- 图片标签
+    - 图片标签用于在网页中插入图片，可以指定图片的位置、大小、替代文字等。
+    - 图片标签的语法格式如下：
+        <img src="图片路径" alt="替代文字">
+    - src属性：必选属性，用于指定图片的路径。vscode中可以直接使用"./"来表示当前目录下的图片。
+    - alt属性：可选属性，用于指定图片的替代文字，当图片无法显示时，显示替代文字。
+    - 注意：图片路径必须是绝对路径或相对路径
+    - 示例：
+        <img src="https://www.w3school.com.cn/i/eg_tulip.jpg" alt="Tulip">
+        <img src="flower.png" alt="Flower">
+    - 图片的属性：
+
+        - width：设置图片的宽度，单位为像素。
+        - height：设置图片的高度，单位为像素。
+        - title：设置鼠标悬停在图片上时的提示文字。
+        - border：设置图片的边框，单位为像素。
+        - align：设置图片的对齐方式，可选值有left、right、center、top、middle、bottom。
+        - style：设置图片的CSS样式。
+        - class：设置图片的类名。
+        - id：设置图片的ID。   
+    
+        - 示例：
+            <img src="https://www.w3school.com.cn/i/eg_tulip.jpg" alt="Tulip" width="200" height="200" title="这是一朵花">
+            <img src="./flower.png" alt="Flower" class="flower">
+            <img src="https://www.w3school.com.cn/i/eg_tulip.jpg" alt="" style="border: 1px solid red;">
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="https://www.w3school.com.cn/i/eg_tulip.jpg" alt="Tulip" width="200" height="200" title="这是一朵花">
+    <img src="./flower.png" alt="Flower" class="flower">
+    <img src="https://www.w3school.com.cn/i/eg_tulip.jpg" alt="" style="border: 1px solid red;">
+</body>
+
+</html>

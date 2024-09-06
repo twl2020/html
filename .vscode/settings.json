@@ -1,0 +1,5 @@
+{
+    "open-in-browser.default": "Google Chrome",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
